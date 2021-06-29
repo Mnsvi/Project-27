@@ -9,7 +9,7 @@ class Stone {
         }
 
         // creating body and adding it to world
-        this.bodies = Bodies.rectangle(x,y,options)
+        this.body = Bodies.rectangle(x,y,width,height,options)
         World.add(world,this.body);
 
         // dimensions 
